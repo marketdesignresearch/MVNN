@@ -1,6 +1,7 @@
 # Monotone-Value Neural Networks: Exploiting Preference Monotonicity in Combinatorial Assignment
 
-This is a piece of software used for computing the prediction performance experiments shown in Table 1 and the MLCA efficiency experiments shown in Table 2 of the main paper. The algorithms are described in detail in the attached paper.
+This is a piece of software used for computing the prediction performance experiments shown in Table 1 and the MLCA efficiency experiments shown in Table 2 of the paper
+[Monotone-Value Neural Networks: Exploiting Preference Monotonicity in Combinatorial Assignment](https://arxiv.org/abs/2109.15117). The algorithms are described in detail in the this paper.
 
 
 ## Requirements
@@ -69,6 +70,10 @@ $ python simulation_mlca.py --domain=GSVM --network_type=MVNN
 
 ## Acknowledgements
 
-The MLCA and the MIP formulation of the Plain Neural Network is based on Weissteiner et al.[1]
+The MLCA and the MIP formulation of the Plain (ReLU) Neural Network is based on Weissteiner et al.[1]
 
 [1] Weissteiner, Jakob, and Sven Seuken. "Deep Learning—Powered Iterative Combinatorial Auctions." Proceedings of the AAAI Conference on Artificial Intelligence. Vol. 34. No. 02. 2020.
+
+## Contact
+
+Maintained by Jakob Weissteiner (weissteiner), Jakob Heiss (JakobHeiss) and Julien Siems (Julien)
