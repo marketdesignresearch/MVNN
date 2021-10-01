@@ -1,0 +1,1750 @@
+{
+  "LSVM": {
+    "10": {
+      "regional": {
+        "PlainNN": {
+          "batch_size": 1,
+          "epochs": 113,
+          "l2": 6.405769738973839e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.009853357857472204,
+          "num_hidden_layers": 1,
+          "num_neurons": 59,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 1,
+          "epochs": 333,
+          "l2": 1.1057229423959767e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.004084506248882872,
+          "num_hidden_layers": 1,
+          "num_neurons": 64,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 4,
+          "epochs": 121,
+          "l2": 2.7021977416939253e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.009752269788509205,
+          "num_hidden_layers": 1,
+          "num_neurons": 54,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 4,
+          "epochs": 278,
+          "l2": 1.3026111329149967e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.004161011995871751,
+          "num_hidden_layers": 1,
+          "num_neurons": 46,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 1,
+          "epochs": 273,
+          "l2": 1.2868820766308914e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0013229212704168923,
+          "num_hidden_layers": 1,
+          "num_neurons": 44,
+          "optimizer": "SGD"
+        }
+      },
+      "national": {
+        "PlainNN": {
+          "batch_size": 4,
+          "epochs": 213,
+          "l2": 7.357571874138574e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.003919043344881212,
+          "num_hidden_layers": 1,
+          "num_neurons": 24,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 4,
+          "epochs": 129,
+          "l2": 4.5770250480988156e-10,
+          "loss_func": "F.mse_loss",
+          "lr": 0.009097234689332163,
+          "num_hidden_layers": 1,
+          "num_neurons": 34,
+          "optimizer": "SGD"
+        },
+        "CALayerAbs": {
+          "batch_size": 2,
+          "epochs": 372,
+          "l2": 1.223820931113948e-08,
+          "loss_func": "F.mse_loss",
+          "lr": 0.009634401825266219,
+          "num_hidden_layers": 1,
+          "num_neurons": 47,
+          "optimizer": "SGD"
+        },
+        "CALayerReLU": {
+          "batch_size": 1,
+          "epochs": 117,
+          "l2": 2.191027781163071e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.00038596995514358467,
+          "num_hidden_layers": 2,
+          "num_neurons": 60,
+          "optimizer": "SGD"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 1,
+          "epochs": 321,
+          "l2": 5.9507379066347287e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.00023984847714062708,
+          "num_hidden_layers": 2,
+          "num_neurons": 58,
+          "optimizer": "SGD"
+        }
+      }
+    },
+    "50": {
+      "regional": {
+        "PlainNN": {
+          "batch_size": 1,
+          "epochs": 158,
+          "l2": 1.9968437639592576e-10,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0010670777032003762,
+          "num_hidden_layers": 1,
+          "num_neurons": 26,
+          "optimizer": "SGD"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 1,
+          "epochs": 111,
+          "l2": 9.294205296796849e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0016475029445514827,
+          "num_hidden_layers": 2,
+          "num_neurons": 40,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 2,
+          "epochs": 281,
+          "l2": 4.040583918913802e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0019937218291136063,
+          "num_hidden_layers": 2,
+          "num_neurons": 49,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 4,
+          "epochs": 209,
+          "l2": 8.22515948853887e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.009801779572397234,
+          "num_hidden_layers": 2,
+          "num_neurons": 60,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 1,
+          "epochs": 258,
+          "l2": 6.957862637393623e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0019170854302039385,
+          "num_hidden_layers": 1,
+          "num_neurons": 62,
+          "optimizer": "Adam"
+        }
+      },
+      "national": {
+        "PlainNN": {
+          "batch_size": 1,
+          "epochs": 92,
+          "l2": 5.092030928331528e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.00859298701886299,
+          "num_hidden_layers": 1,
+          "num_neurons": 4,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 1,
+          "epochs": 298,
+          "l2": 5.804735419702292e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0005173034163475855,
+          "num_hidden_layers": 3,
+          "num_neurons": 51,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 1,
+          "epochs": 306,
+          "l2": 6.4683812716894e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0010840619794928027,
+          "num_hidden_layers": 3,
+          "num_neurons": 34,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 1,
+          "epochs": 288,
+          "l2": 1.5009668199270027e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0006626267039796772,
+          "num_hidden_layers": 3,
+          "num_neurons": 42,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 1,
+          "epochs": 220,
+          "l2": 2.701875960408593e-10,
+          "loss_func": "F.l1_loss",
+          "lr": 0.00335467046715731,
+          "num_hidden_layers": 3,
+          "num_neurons": 61,
+          "optimizer": "SGD"
+        }
+      }
+    },
+    "100": {
+      "regional": {
+        "PlainNN": {
+          "batch_size": 4,
+          "epochs": 392,
+          "l2": 6.640669905421229e-10,
+          "loss_func": "F.l1_loss",
+          "lr": 0.002109339374711988,
+          "num_hidden_layers": 1,
+          "num_neurons": 14,
+          "optimizer": "SGD"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 1,
+          "epochs": 131,
+          "l2": 6.134237537342539e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.006443166511335831,
+          "num_hidden_layers": 1,
+          "num_neurons": 60,
+          "optimizer": "SGD"
+        },
+        "CALayerAbs": {
+          "batch_size": 2,
+          "epochs": 387,
+          "l2": 7.391501845933574e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0014500727861888041,
+          "num_hidden_layers": 2,
+          "num_neurons": 45,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 3,
+          "epochs": 379,
+          "l2": 4.424740986261406e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.005587627246024397,
+          "num_hidden_layers": 3,
+          "num_neurons": 61,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 4,
+          "epochs": 204,
+          "l2": 2.272579868263041e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.003639594245206413,
+          "num_hidden_layers": 1,
+          "num_neurons": 55,
+          "optimizer": "Adam"
+        }
+      },
+      "national": {
+        "PlainNN": {
+          "batch_size": 4,
+          "epochs": 79,
+          "l2": 9.545548703731707e-10,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0050133733615225886,
+          "num_hidden_layers": 3,
+          "num_neurons": 29,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 4,
+          "epochs": 286,
+          "l2": 4.1593192015629936e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0013543707163102753,
+          "num_hidden_layers": 3,
+          "num_neurons": 44,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 3,
+          "epochs": 250,
+          "l2": 7.746620743674522e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0017798290747171467,
+          "num_hidden_layers": 2,
+          "num_neurons": 64,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 1,
+          "epochs": 374,
+          "l2": 1.0079067763110297e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0003744204731003187,
+          "num_hidden_layers": 3,
+          "num_neurons": 63,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 1,
+          "epochs": 391,
+          "l2": 8.972255321921137e-10,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0002405652842933257,
+          "num_hidden_layers": 2,
+          "num_neurons": 48,
+          "optimizer": "Adam"
+        }
+      }
+    }
+  },
+  "SRVM": {
+    "10": {
+      "national": {
+        "PlainNN": {
+          "batch_size": 3,
+          "epochs": 400,
+          "l2": 5.4664148609981924e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.004267630594937531,
+          "num_hidden_layers": 3,
+          "num_neurons": 6,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 2,
+          "epochs": 332,
+          "l2": 9.470637659777313e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.003290533724795123,
+          "num_hidden_layers": 2,
+          "num_neurons": 51,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 1,
+          "epochs": 393,
+          "l2": 1.8897970302322184e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0016399764857244273,
+          "num_hidden_layers": 2,
+          "num_neurons": 56,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 2,
+          "epochs": 59,
+          "l2": 1.4707574536631768e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.007093185041612779,
+          "num_hidden_layers": 2,
+          "num_neurons": 51,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 1,
+          "epochs": 135,
+          "l2": 1.2952122124151821e-10,
+          "loss_func": "F.l1_loss",
+          "lr": 0.005177132495434676,
+          "num_hidden_layers": 1,
+          "num_neurons": 55,
+          "optimizer": "Adam"
+        }
+      },
+      "regional": {
+        "PlainNN": {
+          "batch_size": 2,
+          "epochs": 320,
+          "l2": 3.2372273047605034e-09,
+          "loss_func": "F.mse_loss",
+          "lr": 0.009589807504615635,
+          "num_hidden_layers": 3,
+          "num_neurons": 30,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 1,
+          "epochs": 228,
+          "l2": 1.5353220674016916e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0038165179155214327,
+          "num_hidden_layers": 2,
+          "num_neurons": 55,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 1,
+          "epochs": 327,
+          "l2": 8.435979025459433e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.001254939325399908,
+          "num_hidden_layers": 1,
+          "num_neurons": 48,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 2,
+          "epochs": 219,
+          "l2": 2.6665008068103517e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0035209617681708507,
+          "num_hidden_layers": 1,
+          "num_neurons": 35,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 1,
+          "epochs": 396,
+          "l2": 6.439069222636851e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0030226794531443574,
+          "num_hidden_layers": 1,
+          "num_neurons": 44,
+          "optimizer": "Adam"
+        }
+      },
+      "high_frequency": {
+        "PlainNN": {
+          "batch_size": 4,
+          "epochs": 394,
+          "l2": 5.455020777862799e-09,
+          "loss_func": "F.mse_loss",
+          "lr": 0.00399479214404903,
+          "num_hidden_layers": 3,
+          "num_neurons": 6,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 2,
+          "epochs": 287,
+          "l2": 1.8273738467313311e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.00887041152279269,
+          "num_hidden_layers": 1,
+          "num_neurons": 13,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 2,
+          "epochs": 206,
+          "l2": 1.8838401674472503e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.009078558103605812,
+          "num_hidden_layers": 1,
+          "num_neurons": 29,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 4,
+          "epochs": 303,
+          "l2": 8.164070291975253e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0043555444287378155,
+          "num_hidden_layers": 2,
+          "num_neurons": 54,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 2,
+          "epochs": 253,
+          "l2": 3.6394626803422123e-07,
+          "loss_func": "F.mse_loss",
+          "lr": 0.00980846823973384,
+          "num_hidden_layers": 2,
+          "num_neurons": 61,
+          "optimizer": "Adam"
+        }
+      },
+      "local": {
+        "PlainNN": {
+          "batch_size": 1,
+          "epochs": 89,
+          "l2": 2.5059542707531626e-09,
+          "loss_func": "F.mse_loss",
+          "lr": 0.00013693958308974913,
+          "num_hidden_layers": 1,
+          "num_neurons": 18,
+          "optimizer": "SGD"
+        },
+        "CALayerAbs": {
+          "batch_size": 2,
+          "epochs": 203,
+          "l2": 1.5644688779469657e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0035508758169192135,
+          "num_hidden_layers": 3,
+          "num_neurons": 54,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 3,
+          "epochs": 81,
+          "l2": 5.898970286275077e-10,
+          "loss_func": "F.mse_loss",
+          "lr": 0.009768953254586946,
+          "num_hidden_layers": 1,
+          "num_neurons": 62,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 1,
+          "epochs": 163,
+          "l2": 5.259986180239322e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.002703109898189352,
+          "num_hidden_layers": 2,
+          "num_neurons": 62,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 3,
+          "epochs": 290,
+          "l2": 9.703026312482122e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.005857873633240277,
+          "num_hidden_layers": 2,
+          "num_neurons": 54,
+          "optimizer": "Adam"
+        }
+      }
+    },
+    "50": {
+      "national": {
+        "PlainNN": {
+          "batch_size": 1,
+          "epochs": 112,
+          "l2": 9.253250722917207e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0002687027820501962,
+          "num_hidden_layers": 1,
+          "num_neurons": 2,
+          "optimizer": "SGD"
+        },
+        "CALayerAbs": {
+          "batch_size": 2,
+          "epochs": 220,
+          "l2": 6.578325994815095e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0023404958397158318,
+          "num_hidden_layers": 3,
+          "num_neurons": 59,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 1,
+          "epochs": 335,
+          "l2": 1.9429091068438675e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0018713171828658684,
+          "num_hidden_layers": 2,
+          "num_neurons": 64,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 3,
+          "epochs": 157,
+          "l2": 1.182977448723682e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.008376033383887215,
+          "num_hidden_layers": 3,
+          "num_neurons": 60,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 2,
+          "epochs": 225,
+          "l2": 4.918810181230543e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0049367063559504565,
+          "num_hidden_layers": 3,
+          "num_neurons": 59,
+          "optimizer": "Adam"
+        }
+      },
+      "regional": {
+        "PlainNN": {
+          "batch_size": 1,
+          "epochs": 230,
+          "l2": 5.243967405534059e-10,
+          "loss_func": "F.l1_loss",
+          "lr": 0.006538906108937625,
+          "num_hidden_layers": 3,
+          "num_neurons": 6,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 1,
+          "epochs": 208,
+          "l2": 2.3523825422425427e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0019195209322122398,
+          "num_hidden_layers": 2,
+          "num_neurons": 60,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 2,
+          "epochs": 394,
+          "l2": 8.250220217836593e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.004081717703580976,
+          "num_hidden_layers": 3,
+          "num_neurons": 31,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 1,
+          "epochs": 362,
+          "l2": 5.780616477207603e-07,
+          "loss_func": "F.mse_loss",
+          "lr": 0.005299446098864371,
+          "num_hidden_layers": 3,
+          "num_neurons": 64,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 3,
+          "epochs": 297,
+          "l2": 6.163942472626612e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.004492877650200891,
+          "num_hidden_layers": 3,
+          "num_neurons": 59,
+          "optimizer": "Adam"
+        }
+      },
+      "high_frequency": {
+        "PlainNN": {
+          "batch_size": 1,
+          "epochs": 256,
+          "l2": 3.988819583288482e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0007066892802427736,
+          "num_hidden_layers": 2,
+          "num_neurons": 5,
+          "optimizer": "SGD"
+        },
+        "CALayerAbs": {
+          "batch_size": 4,
+          "epochs": 211,
+          "l2": 8.669978007524173e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0018473498618017548,
+          "num_hidden_layers": 2,
+          "num_neurons": 43,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 2,
+          "epochs": 122,
+          "l2": 5.432326267098787e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0012268509148523866,
+          "num_hidden_layers": 2,
+          "num_neurons": 60,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 3,
+          "epochs": 296,
+          "l2": 3.859750804675894e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.004094053926223101,
+          "num_hidden_layers": 3,
+          "num_neurons": 63,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 2,
+          "epochs": 204,
+          "l2": 8.07985330361613e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0028203277759563565,
+          "num_hidden_layers": 3,
+          "num_neurons": 64,
+          "optimizer": "Adam"
+        }
+      },
+      "local": {
+        "PlainNN": {
+          "batch_size": 3,
+          "epochs": 224,
+          "l2": 8.098990672689636e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.00011955952762594335,
+          "num_hidden_layers": 1,
+          "num_neurons": 2,
+          "optimizer": "SGD"
+        },
+        "CALayerAbs": {
+          "batch_size": 4,
+          "epochs": 245,
+          "l2": 7.34752999952002e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0023975708937106236,
+          "num_hidden_layers": 3,
+          "num_neurons": 60,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 4,
+          "epochs": 369,
+          "l2": 2.5224062189956642e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.001756817615056387,
+          "num_hidden_layers": 3,
+          "num_neurons": 59,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 3,
+          "epochs": 194,
+          "l2": 2.8684389727851846e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.007581708485645575,
+          "num_hidden_layers": 3,
+          "num_neurons": 63,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 4,
+          "epochs": 333,
+          "l2": 5.486200206177527e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0038182922920912176,
+          "num_hidden_layers": 3,
+          "num_neurons": 62,
+          "optimizer": "Adam"
+        }
+      }
+    },
+    "100": {
+      "national": {
+        "PlainNN": {
+          "batch_size": 1,
+          "epochs": 221,
+          "l2": 6.30160383945395e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.005767924871880668,
+          "num_hidden_layers": 1,
+          "num_neurons": 34,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 2,
+          "epochs": 289,
+          "l2": 1.5204820455088983e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.002262282209540343,
+          "num_hidden_layers": 3,
+          "num_neurons": 44,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 2,
+          "epochs": 87,
+          "l2": 1.1751592202456618e-07,
+          "loss_func": "F.mse_loss",
+          "lr": 0.01,
+          "num_hidden_layers": 2,
+          "num_neurons": 41,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 2,
+          "epochs": 163,
+          "l2": 1.1427854074155172e-07,
+          "loss_func": "F.mse_loss",
+          "lr": 0.008843655385252412,
+          "num_hidden_layers": 3,
+          "num_neurons": 62,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 4,
+          "epochs": 244,
+          "l2": 3.697539150667162e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.004292291590674407,
+          "num_hidden_layers": 3,
+          "num_neurons": 61,
+          "optimizer": "Adam"
+        }
+      },
+      "regional": {
+        "PlainNN": {
+          "batch_size": 1,
+          "epochs": 330,
+          "l2": 1.617251268869319e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.00023237186305186897,
+          "num_hidden_layers": 1,
+          "num_neurons": 5,
+          "optimizer": "SGD"
+        },
+        "CALayerAbs": {
+          "batch_size": 3,
+          "epochs": 381,
+          "l2": 2.6411388433153486e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0017899534690743897,
+          "num_hidden_layers": 2,
+          "num_neurons": 47,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 1,
+          "epochs": 100,
+          "l2": 1e-07,
+          "loss_func": "F.mse_loss",
+          "lr": 0.01,
+          "num_hidden_layers": 1,
+          "num_neurons": 16,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 4,
+          "epochs": 334,
+          "l2": 1.271614804011526e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0052291934885891015,
+          "num_hidden_layers": 3,
+          "num_neurons": 62,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 2,
+          "epochs": 76,
+          "l2": 3.084733503926699e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.003953853381387077,
+          "num_hidden_layers": 3,
+          "num_neurons": 64,
+          "optimizer": "Adam"
+        }
+      },
+      "high_frequency": {
+        "PlainNN": {
+          "batch_size": 4,
+          "epochs": 290,
+          "l2": 8.547673748023542e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0052620423636142765,
+          "num_hidden_layers": 1,
+          "num_neurons": 1,
+          "optimizer": "SGD"
+        },
+        "CALayerAbs": {
+          "batch_size": 4,
+          "epochs": 86,
+          "l2": 2.4186878777545125e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0018217219791941512,
+          "num_hidden_layers": 2,
+          "num_neurons": 64,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 1,
+          "epochs": 100,
+          "l2": 1e-07,
+          "loss_func": "F.mse_loss",
+          "lr": 0.01,
+          "num_hidden_layers": 1,
+          "num_neurons": 16,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 2,
+          "epochs": 74,
+          "l2": 2.0374550920225492e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.003376244774476363,
+          "num_hidden_layers": 3,
+          "num_neurons": 63,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 1,
+          "epochs": 186,
+          "l2": 3.730215185293394e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0007409998759089206,
+          "num_hidden_layers": 3,
+          "num_neurons": 62,
+          "optimizer": "Adam"
+        }
+      },
+      "local": {
+        "PlainNN": {
+          "batch_size": 4,
+          "epochs": 376,
+          "l2": 1.0338317880462565e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0005179617244521253,
+          "num_hidden_layers": 1,
+          "num_neurons": 1,
+          "optimizer": "SGD"
+        },
+        "CALayerAbs": {
+          "batch_size": 4,
+          "epochs": 125,
+          "l2": 6.89233278652437e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0018819238793341094,
+          "num_hidden_layers": 3,
+          "num_neurons": 64,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 1,
+          "epochs": 326,
+          "l2": 2.6673112599472956e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0006318971551468284,
+          "num_hidden_layers": 3,
+          "num_neurons": 63,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 3,
+          "epochs": 134,
+          "l2": 1.1967026906893573e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0063848926294204356,
+          "num_hidden_layers": 3,
+          "num_neurons": 63,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 3,
+          "epochs": 372,
+          "l2": 2.4863929787966416e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.001684498861453275,
+          "num_hidden_layers": 3,
+          "num_neurons": 62,
+          "optimizer": "Adam"
+        }
+      }
+    }
+  },
+  "GSVM": {
+    "10": {
+      "national": {
+        "PlainNN": {
+          "batch_size": 1,
+          "epochs": 219,
+          "l2": 4.844022476434782e-10,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0035584159732992364,
+          "num_hidden_layers": 2,
+          "num_neurons": 32,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 3,
+          "epochs": 131,
+          "l2": 2.403054457864031e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.002071632861451499,
+          "num_hidden_layers": 2,
+          "num_neurons": 60,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 4,
+          "epochs": 55,
+          "l2": 1.160470391446556e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.009945096866734246,
+          "num_hidden_layers": 1,
+          "num_neurons": 62,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 4,
+          "epochs": 383,
+          "l2": 3.42889468604876e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0025818988395832727,
+          "num_hidden_layers": 2,
+          "num_neurons": 60,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 1,
+          "epochs": 60,
+          "l2": 1.0021542393958697e-10,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0042968372615696275,
+          "num_hidden_layers": 1,
+          "num_neurons": 63,
+          "optimizer": "Adam"
+        }
+      },
+      "regional": {
+        "PlainNN": {
+          "batch_size": 2,
+          "epochs": 321,
+          "l2": 3.81736746643333e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.009972677024861468,
+          "num_hidden_layers": 3,
+          "num_neurons": 15,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 2,
+          "epochs": 181,
+          "l2": 1.123853039979767e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.006599021454189316,
+          "num_hidden_layers": 1,
+          "num_neurons": 11,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 2,
+          "epochs": 390,
+          "l2": 1.1452180606699223e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0053067370537604125,
+          "num_hidden_layers": 1,
+          "num_neurons": 58,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 3,
+          "epochs": 311,
+          "l2": 8.57250722557058e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.009913698310233893,
+          "num_hidden_layers": 1,
+          "num_neurons": 58,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 1,
+          "epochs": 114,
+          "l2": 5.883818501615814e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.006587243927011946,
+          "num_hidden_layers": 1,
+          "num_neurons": 61,
+          "optimizer": "Adam"
+        }
+      }
+    },
+    "20": {
+      "regional": {
+        "PlainNN": {
+          "batch_size": 4,
+          "epochs": 390,
+          "l2": 2.300465553583299e-10,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0029452895066281832,
+          "num_hidden_layers": 1,
+          "num_neurons": 57,
+          "optimizer": "SGD"
+        },
+        "CALayerAbs": {
+          "batch_size": 1,
+          "epochs": 381,
+          "l2": 1.1373832399494203e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0014151705763518255,
+          "num_hidden_layers": 3,
+          "num_neurons": 63,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 1,
+          "epochs": 100,
+          "l2": 1e-07,
+          "loss_func": "F.mse_loss",
+          "lr": 0.01,
+          "num_hidden_layers": 1,
+          "num_neurons": 16,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 3,
+          "epochs": 254,
+          "l2": 1.1882760904888134e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.009895167303503085,
+          "num_hidden_layers": 1,
+          "num_neurons": 62,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 2,
+          "epochs": 138,
+          "l2": 4.711826303468225e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.006955650298086053,
+          "num_hidden_layers": 1,
+          "num_neurons": 61,
+          "optimizer": "Adam"
+        }
+      },
+      "national": {
+        "PlainNN": {
+          "batch_size": 3,
+          "epochs": 398,
+          "l2": 3.864445302179757e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0029354968418994183,
+          "num_hidden_layers": 1,
+          "num_neurons": 44,
+          "optimizer": "SGD"
+        },
+        "CALayerAbs": {
+          "batch_size": 1,
+          "epochs": 338,
+          "l2": 8.865802680190849e-08,
+          "loss_func": "F.mse_loss",
+          "lr": 0.003584153032762835,
+          "num_hidden_layers": 3,
+          "num_neurons": 64,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 4,
+          "epochs": 364,
+          "l2": 1.9323998169278016e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.004243298626630736,
+          "num_hidden_layers": 1,
+          "num_neurons": 64,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 1,
+          "epochs": 219,
+          "l2": 2.125343123937087e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0011163161243974394,
+          "num_hidden_layers": 2,
+          "num_neurons": 61,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 3,
+          "epochs": 117,
+          "l2": 1.344080310147217e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.005982179096664666,
+          "num_hidden_layers": 1,
+          "num_neurons": 53,
+          "optimizer": "Adam"
+        }
+      }
+    },
+    "50": {
+      "regional": {
+        "PlainNN": {
+          "batch_size": 4,
+          "epochs": 348,
+          "l2": 3.013329280385952e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.006250464256707444,
+          "num_hidden_layers": 1,
+          "num_neurons": 48,
+          "optimizer": "SGD"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 4,
+          "epochs": 152,
+          "l2": 8.140017963474253e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.006770977192473795,
+          "num_hidden_layers": 2,
+          "num_neurons": 57,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 3,
+          "epochs": 392,
+          "l2": 5.332983444257181e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.001676222059075572,
+          "num_hidden_layers": 3,
+          "num_neurons": 63,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 3,
+          "epochs": 298,
+          "l2": 4.205467747926564e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.007375327766525765,
+          "num_hidden_layers": 2,
+          "num_neurons": 64,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 2,
+          "epochs": 355,
+          "l2": 3.3512188439614196e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0020019578421937344,
+          "num_hidden_layers": 1,
+          "num_neurons": 62,
+          "optimizer": "Adam"
+        }
+      },
+      "national": {
+        "PlainNN": {
+          "batch_size": 1,
+          "epochs": 223,
+          "l2": 4.4651668773375996e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.008275107387261539,
+          "num_hidden_layers": 1,
+          "num_neurons": 61,
+          "optimizer": "SGD"
+        },
+        "CALayerAbs": {
+          "batch_size": 1,
+          "epochs": 247,
+          "l2": 2.117111967115055e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0007400611091598895,
+          "num_hidden_layers": 3,
+          "num_neurons": 62,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 1,
+          "epochs": 387,
+          "l2": 6.999861871291885e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0004223197617498199,
+          "num_hidden_layers": 3,
+          "num_neurons": 64,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 4,
+          "epochs": 138,
+          "l2": 4.542590856216607e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.00674164032638032,
+          "num_hidden_layers": 3,
+          "num_neurons": 63,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 2,
+          "epochs": 223,
+          "l2": 1.6529621591303334e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0022456172778091915,
+          "num_hidden_layers": 1,
+          "num_neurons": 61,
+          "optimizer": "Adam"
+        }
+      }
+    }
+  },
+  "MRVM": {
+    "10": {
+      "national": {
+        "PlainNN": {
+          "batch_size": 4,
+          "epochs": 330,
+          "l2": 4.674927865570949e-08,
+          "loss_func": "F.mse_loss",
+          "lr": 0.0016813817812804238,
+          "num_hidden_layers": 2,
+          "num_neurons": 5,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 4,
+          "epochs": 359,
+          "l2": 2.94302043854345e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0004446310727860416,
+          "num_hidden_layers": 1,
+          "num_neurons": 29,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 3,
+          "epochs": 121,
+          "l2": 1.3997521796195965e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0013196187571166878,
+          "num_hidden_layers": 1,
+          "num_neurons": 29,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 1,
+          "epochs": 72,
+          "l2": 1.3013734191682758e-07,
+          "loss_func": "F.mse_loss",
+          "lr": 0.001436135394437651,
+          "num_hidden_layers": 2,
+          "num_neurons": 27,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 1,
+          "epochs": 352,
+          "l2": 3.9659418039629904e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0002529022828297257,
+          "num_hidden_layers": 1,
+          "num_neurons": 32,
+          "optimizer": "Adam"
+        }
+      },
+      "local": {
+        "PlainNN": {
+          "batch_size": 2,
+          "epochs": 377,
+          "l2": 3.51046188520824e-10,
+          "loss_func": "F.mse_loss",
+          "lr": 0.00012219607159929548,
+          "num_hidden_layers": 1,
+          "num_neurons": 4,
+          "optimizer": "SGD"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 1,
+          "epochs": 391,
+          "l2": 3.471223044921981e-08,
+          "loss_func": "F.mse_loss",
+          "lr": 0.0016155656850722025,
+          "num_hidden_layers": 1,
+          "num_neurons": 20,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 1,
+          "epochs": 276,
+          "l2": 1.1612770698084083e-07,
+          "loss_func": "F.mse_loss",
+          "lr": 0.000577540738606597,
+          "num_hidden_layers": 2,
+          "num_neurons": 19,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 1,
+          "epochs": 156,
+          "l2": 1.2243688787467517e-07,
+          "loss_func": "F.mse_loss",
+          "lr": 0.0034759446566414907,
+          "num_hidden_layers": 2,
+          "num_neurons": 28,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 4,
+          "epochs": 271,
+          "l2": 4.2059600269240764e-08,
+          "loss_func": "F.mse_loss",
+          "lr": 0.0020276544345434492,
+          "num_hidden_layers": 1,
+          "num_neurons": 21,
+          "optimizer": "Adam"
+        }
+      },
+      "regional": {
+        "PlainNN": {
+          "batch_size": 2,
+          "epochs": 86,
+          "l2": 6.042058790763076e-09,
+          "loss_func": "F.mse_loss",
+          "lr": 0.00013601111509976778,
+          "num_hidden_layers": 1,
+          "num_neurons": 6,
+          "optimizer": "SGD"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 2,
+          "epochs": 335,
+          "l2": 1.827542908222574e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.00045203799131362957,
+          "num_hidden_layers": 2,
+          "num_neurons": 32,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 1,
+          "epochs": 285,
+          "l2": 4.1626177373338154e-08,
+          "loss_func": "F.mse_loss",
+          "lr": 0.0007933908236129266,
+          "num_hidden_layers": 1,
+          "num_neurons": 13,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 2,
+          "epochs": 149,
+          "l2": 3.080849406647428e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.001682986661335078,
+          "num_hidden_layers": 1,
+          "num_neurons": 16,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 2,
+          "epochs": 184,
+          "l2": 1.3330175704965445e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0023444958093964277,
+          "num_hidden_layers": 1,
+          "num_neurons": 28,
+          "optimizer": "Adam"
+        }
+      }
+    },
+    "100": {
+      "national": {
+        "PlainNN": {
+          "batch_size": 2,
+          "epochs": 393,
+          "l2": 6.09087096302523e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0002653555526871446,
+          "num_hidden_layers": 2,
+          "num_neurons": 12,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 2,
+          "epochs": 399,
+          "l2": 1.4547189725226061e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.00023681821898219202,
+          "num_hidden_layers": 2,
+          "num_neurons": 27,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 2,
+          "epochs": 122,
+          "l2": 8.611709774459443e-07,
+          "loss_func": "F.mse_loss",
+          "lr": 0.002822088393173535,
+          "num_hidden_layers": 2,
+          "num_neurons": 32,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 2,
+          "epochs": 294,
+          "l2": 2.8664844666963737e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0003068279447484159,
+          "num_hidden_layers": 1,
+          "num_neurons": 28,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 4,
+          "epochs": 245,
+          "l2": 2.3296787166203764e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0005982621778734999,
+          "num_hidden_layers": 1,
+          "num_neurons": 23,
+          "optimizer": "Adam"
+        }
+      },
+      "regional": {
+        "PlainNN": {
+          "batch_size": 1,
+          "epochs": 117,
+          "l2": 5.211696007607825e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0021755421798619915,
+          "num_hidden_layers": 2,
+          "num_neurons": 3,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 1,
+          "epochs": 130,
+          "l2": 5.562403444753668e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0003951664987461191,
+          "num_hidden_layers": 2,
+          "num_neurons": 30,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 1,
+          "epochs": 325,
+          "l2": 5.285716449139561e-07,
+          "loss_func": "F.mse_loss",
+          "lr": 0.0023778612699865195,
+          "num_hidden_layers": 2,
+          "num_neurons": 27,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 4,
+          "epochs": 86,
+          "l2": 2.4155369752202952e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0033132459141247505,
+          "num_hidden_layers": 1,
+          "num_neurons": 27,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 1,
+          "epochs": 189,
+          "l2": 1.3356637206499408e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0009246607878325904,
+          "num_hidden_layers": 2,
+          "num_neurons": 26,
+          "optimizer": "Adam"
+        }
+      },
+      "local": {
+        "PlainNN": {
+          "batch_size": 1,
+          "epochs": 225,
+          "l2": 1.514683411936462e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0014048444254832796,
+          "num_hidden_layers": 2,
+          "num_neurons": 1,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 4,
+          "epochs": 372,
+          "l2": 1.3892020183919011e-08,
+          "loss_func": "F.mse_loss",
+          "lr": 0.0005621434896947473,
+          "num_hidden_layers": 2,
+          "num_neurons": 28,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 3,
+          "epochs": 253,
+          "l2": 5.584081119344091e-07,
+          "loss_func": "F.mse_loss",
+          "lr": 0.009784355960683463,
+          "num_hidden_layers": 1,
+          "num_neurons": 8,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 1,
+          "epochs": 157,
+          "l2": 6.048429482958422e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0009017916428114164,
+          "num_hidden_layers": 1,
+          "num_neurons": 32,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 1,
+          "epochs": 61,
+          "l2": 3.342236790306622e-07,
+          "loss_func": "F.mse_loss",
+          "lr": 0.004855387726961162,
+          "num_hidden_layers": 2,
+          "num_neurons": 26,
+          "optimizer": "Adam"
+        }
+      }
+    },
+    "300": {
+      "national": {
+        "PlainNN": {
+          "batch_size": 3,
+          "epochs": 292,
+          "l2": 5.8802784589476414e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.00036699891579408656,
+          "num_hidden_layers": 2,
+          "num_neurons": 2,
+          "optimizer": "SGD"
+        },
+        "CALayerAbs": {
+          "batch_size": 2,
+          "epochs": 149,
+          "l2": 3.6810149284240784e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0013458765865391905,
+          "num_hidden_layers": 2,
+          "num_neurons": 9,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 4,
+          "epochs": 51,
+          "l2": 2.281452731166629e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.002716021241377875,
+          "num_hidden_layers": 2,
+          "num_neurons": 28,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 2,
+          "epochs": 131,
+          "l2": 6.562772393617601e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0003417558106990909,
+          "num_hidden_layers": 2,
+          "num_neurons": 28,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 4,
+          "epochs": 191,
+          "l2": 6.2260971788113345e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0006649638232333761,
+          "num_hidden_layers": 1,
+          "num_neurons": 9,
+          "optimizer": "Adam"
+        }
+      },
+      "regional": {
+        "PlainNN": {
+          "batch_size": 1,
+          "epochs": 103,
+          "l2": 1.2455116397090475e-10,
+          "loss_func": "F.l1_loss",
+          "lr": 0.004827088082882245,
+          "num_hidden_layers": 1,
+          "num_neurons": 16,
+          "optimizer": "SGD"
+        },
+        "CALayerAbs": {
+          "batch_size": 1,
+          "epochs": 292,
+          "l2": 7.778303133589408e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0005866528164254191,
+          "num_hidden_layers": 1,
+          "num_neurons": 32,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 1,
+          "epochs": 329,
+          "l2": 5.108016501518621e-07,
+          "loss_func": "F.mse_loss",
+          "lr": 0.0021304360667586085,
+          "num_hidden_layers": 2,
+          "num_neurons": 31,
+          "optimizer": "Adam"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 1,
+          "epochs": 127,
+          "l2": 5.694727911901787e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0010080590522874746,
+          "num_hidden_layers": 1,
+          "num_neurons": 30,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 3,
+          "epochs": 298,
+          "l2": 8.111233865291205e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.001063541560042145,
+          "num_hidden_layers": 2,
+          "num_neurons": 19,
+          "optimizer": "Adam"
+        }
+      },
+      "local": {
+        "PlainNN": {
+          "batch_size": 4,
+          "epochs": 93,
+          "l2": 7.798260637894752e-09,
+          "loss_func": "F.l1_loss",
+          "lr": 0.002904302789415529,
+          "num_hidden_layers": 2,
+          "num_neurons": 22,
+          "optimizer": "SGD"
+        },
+        "CALayerAbsProjected": {
+          "batch_size": 1,
+          "epochs": 342,
+          "l2": 1.5959164674056573e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0006708387673360279,
+          "num_hidden_layers": 1,
+          "num_neurons": 10,
+          "optimizer": "Adam"
+        },
+        "CALayerReLU": {
+          "batch_size": 4,
+          "epochs": 107,
+          "l2": 6.33656182363903e-07,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0013325073875118962,
+          "num_hidden_layers": 2,
+          "num_neurons": 28,
+          "optimizer": "Adam"
+        },
+        "CALayerAbs": {
+          "batch_size": 4,
+          "epochs": 228,
+          "l2": 2.856591589386835e-08,
+          "loss_func": "F.mse_loss",
+          "lr": 0.0015709607921657405,
+          "num_hidden_layers": 1,
+          "num_neurons": 30,
+          "optimizer": "Adam"
+        },
+        "CALayerReLUProjected": {
+          "batch_size": 2,
+          "epochs": 161,
+          "l2": 3.989650677410758e-08,
+          "loss_func": "F.l1_loss",
+          "lr": 0.0011946665419885376,
+          "num_hidden_layers": 2,
+          "num_neurons": 32,
+          "optimizer": "Adam"
+        }
+      }
+    }
+  }
+}
