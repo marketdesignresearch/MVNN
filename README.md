@@ -3,7 +3,12 @@
 Published at [IJCAI 2022](https://www.ijcai.org/proceedings/2022/77)
 
 This is a piece of software used for computing the prediction performance experiments shown in Table 1 and the MLCA efficiency experiments shown in Table 2 of the paper
-[Monotone-Value Neural Networks: Exploiting Preference Monotonicity in Combinatorial Assignment](https://arxiv.org/abs/2109.15117). The algorithms are described in detail in the this paper.
+[Monotone-Value Neural Networks: Exploiting Preference Monotonicity in Combinatorial Assignment](https://arxiv.org/abs/2109.15117). The algorithms are described in detail in the following paper:
+
+**Monotone-Value Neural Networks: Exploiting Preference Monotonicity in Combinatorial Assignment**<br/>
+Jakob Weissteiner, Jakob Heiss, Julien Siems, and Sven Seuken.<br/>
+*In Proceedings of the Thirty-first International joint Conference on Artificial Intelligence IJCAI'22, Vienna, AUT, July 2022.*<br/>
+Full paper version including appendix: [[pdf](https://arxiv.org/abs/2109.15117)]
 
 ## Note that there exists an updated source code for the class of monotone-value neural networks (MVNNs) [here (i.e., *mvnns/mvnn.py and mvnns/layers.py*)](https://github.com/marketdesignresearch/BOCA) with the following updates:
 * Novel weight initialization method specialized for MVNNs that prevents from getting stuck when training, especially for large architectures.
